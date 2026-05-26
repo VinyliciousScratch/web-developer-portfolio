@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d build -r https://github.com/VinyliciousScratch/web-developer-portfolio.git",
     "preview": "vite preview"
   },
   "dependencies": {
