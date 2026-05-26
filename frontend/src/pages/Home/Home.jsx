@@ -2,7 +2,7 @@ import './Home.css'
 import LeftSection from '../../components/Left_Section/Left_Section.jsx'
 import RightSection from '../../components/Right_Section/Right_Section.jsx'
 import Avatar from '../../images/avatar.webp'
-import skillimg from '../../images/skills.webp'
+import skillimg from '../../images/Skills.webp'
 import data from '../../data/home.json'
 
 function Home() {
