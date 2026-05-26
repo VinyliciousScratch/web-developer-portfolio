@@ -1,0 +1,61 @@
+
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+#root {
+  --background_color: #1f1f1fee;
+  --background_color_hidden: #161616ee;
+
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  text-align: center;
+  border-inline: 1px solid var(--border);
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  background-color: var(--background_color);
+  width: 100%;
+  animation: mainfade 0.25s ease forwards;
+  padding: 100px 16px 120px 16px;
+  box-sizing: border-box;
+}
+
+label, h2{
+  color: #f2cd8c;
+  -webkit-text-stroke: 1px #c79a4a;
+}
+
+h1{
+  color: #f2cd8c;
+  -webkit-text-stroke: 1px #c79a4a;
+  font-size: clamp(32px, 4vw, 64px);
+}
+
+
+p{
+  color: white;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+@keyframes mainfade {
+  from {
+    background-color: var(--background_color_hidden);
+  }
+  to {
+    background-color: var(--background_color);
+  }
+}

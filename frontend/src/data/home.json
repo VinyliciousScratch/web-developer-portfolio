@@ -1,0 +1,12 @@
+{
+  "title": "À propos de moi",
+  "text": ["Développeur Frontend / Backend passionné, je transforme vos idées en réalisations concrètes et fonctionnelles.",
+"Je conçois des interfaces modernes, propres et intuitives, centrées sur l’expérience utilisateur ainsi que sur la performance.",
+"Je développe des applications web dynamiques, responsives et optimisées.",
+"J’accorde une attention particulière à la qualité du code, à l’ergonomie et à la fluidité des interfaces afin de proposer des expériences web efficaces et agréables.",
+"\nOuvert aux collaborations sur des missions ou projets freelance, je souhaite mettre mes compétences en pratique et contribuer à la création de projets web concrets."],
+  "title2": "Mes compétences : ",
+  "text2": ["Frontend : HTML5, CSS, JavaScript, React, Responsive Design",
+"\nBackend : Node.js, Express.js, API REST"]
+}
+

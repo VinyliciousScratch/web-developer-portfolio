@@ -1,0 +1,28 @@
+.Central_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+}
+
+.Central_section h1{
+    margin: 0px 0px  45px  0px ;
+    text-shadow: 0 0 10px rgba(252, 176, 44, 0.45);
+
+}
+
+.Central_section img{
+    box-sizing: border-box;
+    border: 10px solid #2a4a5a;
+    max-width: 90%;
+    height: auto;
+}
+
+@media (max-width: 750px) {
+    .Central_section img{
+        max-width: 100%;
+
+    }
+
+
+}

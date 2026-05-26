@@ -1,0 +1,37 @@
+{
+    "title_project_1": "Kasa — Projet Front-End React",
+
+    "title_text_1": "Contexte de production",
+
+    "project_1_text_1": ["Refonte complète de la plateforme de location immobilière Kasa afin de remplacer une ancienne application développée en ASP.NET par une architecture moderne en JavaScript.",
+" Le projet visait à améliorer la maintenabilité du code ainsi que l’expérience utilisateur sur desktop et mobile, dans un contexte de modernisation globale de l’interface et des usages."],
+
+    "title_text_2": "Technologie et enjeux",
+
+    "project_1_text_2": ["Le développement a été réalisé avec React, React Router, SCSS et Vite, en respectant des maquettes Figma fournies pour garantir une intégration fidèle et responsive.",
+" Les données des logements ont été simulées via un fichier JSON en attendant l’intégration d’un back-end Node.js.",
+" L’enjeu principal était de construire une architecture front-end modulaire, capable de gérer des routes dynamiques et des composants réutilisables tout en assurant une expérience fluide et cohérente."],
+
+    "title_text_3": "Réalisation et perspectives",
+
+    "project_1_text_3": ["Le projet a abouti à une application moderne, performante et responsive, intégrant des composants interactifs comme une galerie d’images et des menus Collapse animés, tout en améliorant la structuration globale du code pour faciliter son évolution.",
+"\nLien du projet GitHub : https://github.com/VinyliciousScratch/Openclasssroom-Projet_05"],
+
+
+    "title_project_2": "Booki — Projet d’intégration HTML/CSS responsive",
+
+    "project_2_text_1": ["Développement de l’interface du site Booki, une plateforme de recherche d’hébergements et d’activités touristiques, à partir de maquettes fournies par l’équipe design.",
+" Le projet s’inscrivait dans un contexte de collaboration entre les équipes produit, design et développement afin de créer une interface moderne, responsive et accessible adaptée aux différents supports numériques."],
+
+    "project_2_text_2": ["L’intégration du projet a été réalisée en HTML5 et CSS3 en respectant une structure de fichiers imposée ainsi que les maquettes desktop, tablette et mobile fournies sur Figma.",
+" L’utilisation de Flexbox, des Media Queries et de Git/GitHub a permis de développer une interface responsive tout en assurant un suivi rigoureux du versionnement.",
+" L’enjeu principal était de reproduire fidèlement le design tout en garantissant une expérience utilisateur fluide et une bonne organisation du code."],
+
+
+    "project_2_text_3": ["Le projet a permis de concevoir une interface responsive et ergonomique conforme aux attentes de l’équipe technique et design, avec une adaptation optimale sur plusieurs tailles d’écran.",
+    "Cette réalisation a renforcé mes compétences en intégration web, en structuration HTML/CSS et en gestion de versions avec Git.",
+"\nLien du projet GitHub : https://github.com/VinyliciousScratch/Openclasssroom-Projet_02"]
+
+
+
+}

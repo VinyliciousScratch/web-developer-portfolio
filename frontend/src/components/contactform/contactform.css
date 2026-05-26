@@ -1,0 +1,41 @@
+form {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 24px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/**button {
+  background: #161616ee;
+  color: #f2cd8c;
+  border: 1px solid #c79a4a;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}**/
+
+button {
+  background: transparent;
+  color: #f2cd8c;
+  border: 1px solid #c79a4a;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #c79a4a33;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px #c79a4a55;
+}

@@ -1,0 +1,34 @@
+.Central_text_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    gap:0px;
+}
+
+.Central_text_section h2{
+    font-size: 32px;
+
+}
+
+.Central_text_section p{
+    white-space: pre-line;
+
+}
+
+@media (max-width: 750px) {
+    .Central_text_section{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .Central_text_section p{
+        width: 100%;
+
+        
+    }
+
+
+}
