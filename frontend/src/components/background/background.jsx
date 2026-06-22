@@ -11,7 +11,7 @@ function Background(){
         playsInline
         className="video"
       >
-        <source src={video} type = "video/mp4"/>
+        <source src={video} type = "video/webm"/>
       </video>
     )
 }
