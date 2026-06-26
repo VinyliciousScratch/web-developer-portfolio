@@ -1,11 +1,8 @@
 import './contactform.css'
-const apiUrl = import.meta.env.VITE_API_FORMULAIRE
-
-
 
 function Contactform() {
   return (
-    <form action = {apiUrl} method="POST">
+    <form action = "https://formspree.io/f/xzdwewyr" method="POST">
 
         <label htmlFor="name">Nom</label>
         <input id="name" name="name" placeholder="Nom" required />
