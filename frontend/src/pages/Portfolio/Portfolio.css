@@ -1,3 +1,63 @@
 .portfoliobody{
+    padding: 100px 16px 50px 16px;
+    
+}
 
+.portfoliobody h1 {
+
+    margin: 0px 0px  0px  0px ;
+    text-shadow: 0 0 10px rgba(252, 176, 44, 0.45);
+}
+
+.selector_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+  flex-direction: column;
+  gap: 60px;
+    
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(-20px);
+  
+
+  transition:
+  max-height 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.3s,
+  opacity 0.5s ease-out 0.35s,
+  transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1)  0.35s;
+}
+
+.content.visible {
+  max-height: 4000px;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.text_game_dev {
+  max-height: 200px; 
+  margin: 0 10% 3% 10%;
+  opacity: 1;
+  transform: translateY(0);
+  overflow: hidden;
+  transition:
+    max-height 0.5s ease,
+    opacity 0.3s ease,
+    transform 0.3s ease,
+    margin 0.5s ease;
+}
+
+.text_game_dev.hidden {
+  max-height: 0;
+  opacity: 0;
+  transform: translateY(-10px);
+    margin: 0 10% 0 10%;
+;
 }

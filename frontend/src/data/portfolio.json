@@ -15,7 +15,7 @@
     "title_text_3": "Réalisation et perspectives",
 
     "project_1_text_3": ["Le projet a abouti à une application moderne, performante et responsive, intégrant des composants interactifs comme une galerie d’images et des menus Collapse animés, tout en améliorant la structuration globale du code pour faciliter son évolution.",
-"\nLien du projet GitHub : https://github.com/VinyliciousScratch/Openclasssroom-Projet_05"],
+"\nLien du projet GitHub : https://github.com/M-Mathot/Openclasssroom-Projet_05"],
 
 
     "title_project_2": "Booki — Projet d’intégration HTML/CSS responsive",
@@ -30,8 +30,9 @@
 
     "project_2_text_3": ["Le projet a permis de concevoir une interface responsive et ergonomique conforme aux attentes de l’équipe technique et design, avec une adaptation optimale sur plusieurs tailles d’écran.",
     "Cette réalisation a renforcé mes compétences en intégration web, en structuration HTML/CSS et en gestion de versions avec Git.",
-"\nLien du projet GitHub : https://github.com/VinyliciousScratch/Openclasssroom-Projet_02"]
+"\nLien du projet GitHub : https://github.com/M-Mathot/Openclasssroom-Projet_02"],
 
-
+    "intro_text" :["Le développement web est pour moi un moyen de combiner créativité et programmation afin de créer des expériences interactives et modernes.",
+     "J’aime expérimenter avec de nouvelles technologies, concevoir des interfaces intuitives et transformer des idées en sites web à la fois esthétiques, fonctionnels et ergonomiques."]
 
 }

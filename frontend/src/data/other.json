@@ -3,10 +3,20 @@
   "text": ["En dehors du développement web, j’aime également concevoir des expériences interactives à travers le développement de jeux vidéo avec Godot.",
 " Cette pratique me permet d’explorer des aspects plus techniques et créatifs de la programmation, comme les mécaniques de gameplay, la gestion d’interfaces, les systèmes de sauvegarde ou encore la gestion d'environnement 3D.",
 " C’est un domaine dans lequel je peux expérimenter librement et approfondir ma compréhension de la structuration de projets plus complexes."],
-  "title2": "Passion et démarche personnelle : ",
-  "text2": ["Ces explorations font partie de mes centres d’intérêt et de ma passion pour la création numérique.",
-"Elles me servent à la fois d’espace d’apprentissage et de recherche personnelle, me permettant de tester différentes approches techniques et d’améliorer ma logique de développement.",
-"Elles m’aident également à développer une vision plus globale de la création d’expériences interactives.",
-"Cette curiosité technique complète mon profil de développeur web en apportant une dimension plus créative et expérimentale à ma pratique du code."]
+  "waifishtitle1": "Waifish — Pêche & Détente : ",
+  "waifishtext1": ["Jeu de pêche relaxant développé avec Godot, pensé comme compagnon de pause pendant les sessions de travail. Sorti sur Steam, avec plus de 160 poissons et 25 cosmétiques à débloquer.",
+  " Ce projet m’a permis de développer mon autonomie et de gagner en expérience dans la gestion d’un projet complet, de la conception à la publication."],
+
+  "waifishtitle2": "Aspects techniques",
+  "waifishtext2": ["De la conception à la publication sur Steam, ce projet a été entièrement développé en solo avec Godot.",
+   "Il regroupe plusieurs systèmes conçus sur mesure : sauvegarde de progression, cycle jour/nuit et météo dynamique, lecteur MP3 avec playlists personnalisées, et boutique de déblocage des cosmétiques."],
+
+  "waifishSteamUrl":"https://store.steampowered.com/app/4917860/WaiFish/",
+  
+  "unknowncharactertitle":["Jeu en développement "],
+  "unknowncharactertext":["Un FPS d'horreur en développement, porté par l'esthétique brute des survival-horrors PS1 : textures basse résolution, éclairage minimaliste et tension constante, au service d'une ambiance résolument oppressante.",
+    "Ce projet me permet d’approfondir mes compétences en gameplay, level design, environnement 3D, éclairage et mise en scène, tout en développant ma maîtrise de Godot et des enjeux liés à la création d’un jeu en 3D."]
+
 }
+
 

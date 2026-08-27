@@ -1,9 +1,121 @@
 .otherbody{
+    padding: 100px 16px 50px 16px;
 
 }
 
 .otherbody h1 {
 
-    margin: 0px 0px  45px  0px ;
+    margin: 0px 0px  0px  0px ;
     text-shadow: 0 0 10px rgba(252, 176, 44, 0.45);
+}
+
+.selector_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    width: 100%;
+}
+
+.content {
+
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(-20px);
+
+  transition:
+  max-height 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.3s,
+  opacity 0.5s ease-out 0.35s,
+  transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1)  0.35s;
+}
+
+.content.visible {
+  max-height: 4000px;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.text_game_dev {
+  max-height: 200px; /* ou une valeur qui couvre ton texte */
+  margin: 0 10% 3% 10%;
+  opacity: 1;
+  transform: translateY(0);
+  overflow: hidden;
+  transition:
+    max-height 0.5s ease,
+    opacity 0.3s ease,
+    transform 0.3s ease,
+    margin 0.5s ease;
+}
+
+.text_game_dev.hidden {
+  max-height: 0;
+  opacity: 0;
+  transform: translateY(-10px);
+    margin: 0 10% 0 10%;
+;
+}
+
+
+.content .steam_badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 40px auto 10px;
+  padding: 10px 20px;
+  width: fit-content;
+
+  background: rgba(27, 40, 56, 0.6);
+  border: 1px solid #2a475e;
+  border-radius: 6px;
+
+  color: #66c0f4;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+
+  transition:
+    transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1),
+    background 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.content .steam_badge img {
+  width: 22px;
+  height: 22px;
+}
+
+.content .steam_badge:hover {
+  background: rgba(42, 71, 94, 0.85);
+  border-color: #66c0f4;
+  transform: scale(1.05);
+}
+
+.imguk{
+    box-sizing: border-box;
+    border: 10px solid #2a4a5a;
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+
+    height: auto;
+}
+
+
+
+
+
+@media (max-width: 750px) {
+    .imguk{
+        max-width: 100%;
+
+    }
+
+
 }
